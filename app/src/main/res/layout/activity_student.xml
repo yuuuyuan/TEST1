@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/stu_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stu_id" />
+
+        <Button
+            android:id="@+id/button_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="on"
+            android:text="@string/on" />
+
+        <Button
+            android:id="@+id/button_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="inputName"
+            android:text="@string/input" />
+
+        <Button
+            android:id="@+id/button_list_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onReceive"
+            android:text="@string/list_All" />
+
+        <Button
+            android:id="@+id/button_get_vis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="visible"
+            android:text="@string/Visible" />
+
+        <Button
+            android:id="@+id/button_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="listConnected"
+            android:text="@string/List" />
+
+        <Button
+            android:id="@+id/button_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="off"
+            android:text="@string/off" />
+
+        <Button
+            android:id="@+id/button_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="change"
+            android:text="@string/change" />
+
+        <Button
+            android:id="@+id/button_compare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="compare"
+            android:text="@string/compare" />
+
+        <ListView
+            android:id="@+id/listView_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <ListView
+            android:id="@+id/listView_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+
+        </ListView>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+<!--</androidx.coordinatorlayout.widget.CoordinatorLayout>-->
