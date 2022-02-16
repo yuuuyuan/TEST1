@@ -43,7 +43,7 @@
             android:id="@+id/button_list_all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onReceive"
+            android:onClick="listAvailable"
             android:text="@string/list_All" />
 
         <Button
@@ -80,6 +80,11 @@
             android:layout_height="wrap_content"
             android:onClick="compare"
             android:text="@string/compare" />
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
 
         <ListView
             android:id="@+id/listView_a"

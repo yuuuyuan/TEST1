@@ -25,6 +25,6 @@
     <string name="Teacher">Teacher</string>
     <string name="title_activity_student">StudentActivity</string>
     <string name="tea_hello">Hello, teacher!</string>
-    <string name="list_All">List all available device</string>
+    <string name="list_All">Scan available devices</string>
 
 </resources>
