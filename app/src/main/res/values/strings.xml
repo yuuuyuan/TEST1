@@ -26,5 +26,7 @@
     <string name="title_activity_student">StudentActivity</string>
     <string name="tea_hello">Hello, teacher!</string>
     <string name="list_All">Scan available devices</string>
+    <string name="shower_stop">stop scan</string>
+    <string name="shower_not_bind">not bind yet</string>
 
 </resources>
